@@ -59,7 +59,7 @@ For the purposes of these tutorials, you can use any editor you
 want. If you don't know what to choose, then I suggest starting with
 =gedit=.
 
-There's a pretty good cross-platform (linux, Mac OS X, Windows)
+There's a pretty good cross-platform (Linux, Mac OS X, Windows)
 source-code oriented editor called [[http://www.sublimetext.com/][Sublime Text 2]] that I can also
 recommend. It has a lot of neat functionality that's particularly
 oriented towards source code editing (in many languages, not just
@@ -116,7 +116,7 @@ edit -> compile -> run workflow.
 ** Windows
 
 If you are using Windows, one option is to install and use [[http://cygwin.com/][Cygwin]],
-which is a collection of tools that provide unix-like funcionality
+which is a collection of tools that provide Unix-like functionality
 within Windows. Another option is to install and use an IDE
 (e.g. [[http://www.eclipse.org/][Eclipse]] that will let you edit, compile and run C code.
 
