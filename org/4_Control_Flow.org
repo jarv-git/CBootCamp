@@ -11,7 +11,7 @@
 
 * Loops
 
-One of the most useful properties of progammable computers is that you
+One of the most useful properties of programmable computers is that you
 can ask them to repeat a calculation and/or operation many many times,
 and they will not (usually) complain. The looping constructs in ~C~
 allow us to repeatedly execute a block of code many times, without
@@ -320,7 +320,7 @@ int main() {
 
 The case of multiple if-else statements strung together to test for
 different values, and execute different code, is common enough that
-there is a special construct called the *switch statment* that is
+there is a special construct called the *switch statement* that is
 provided for this case:
 
 #+BEGIN_SRC c
