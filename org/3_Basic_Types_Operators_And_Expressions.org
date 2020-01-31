@@ -231,7 +231,7 @@ interpreted languages like Python, R, etc. Comparing two strings in C
 is not as easy as typing ~if (the_month == "JAN")~ ... it requires a
 call to a function in =string.h= called =strcmp()=.
 
-Another reason is that because =enum= data types are represted as
+Another reason is that because =enum= data types are represented as
 integers, you can do integer operations (comparisons, arithmetic, etc)
 on them... so for example you could do something clever like:
 
