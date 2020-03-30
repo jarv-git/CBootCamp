@@ -18,7 +18,7 @@ X, and GNU/Linux are also written in C. Lots of other high-level
 languages like Perl, PHP, Python, R, Matlab, Mathematica, etc, are
 written in C.
 
-Currently (as of July, 2012) C is #1 in popularity according to the
+Currently (as of March, 2020) C is #2 in popularity according to the
 [[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html][TIOBE index]].
 
 ** Example Code
@@ -72,7 +72,7 @@ languages is that in C we have to explicitly import the =stdio.h=
 library, and we have to explicitly define the =main()= function. Not
 such a big deal. The other difference is that the name of the standard
 function to write stuff to the screen is different in each
-langauge. In C it is =printf()=, in Python it is =print=, in R it is
+language. In C it is =printf()=, in Python it is =print=, in R it is
 =cat()=, and in Matlab/Octave it is =disp()=. Again, no big deal.
 
 One of the things I want you to take away from this boot camp is that
@@ -147,7 +147,7 @@ about 10 seconds to see the result of a calculation or operation,
 then I get annoyed, and I think about implementing it in C.
 
 You might think, who cares if my calculation takes 10 seconds, or 30
-seconds, ot 5 minutes, for that matter? Is 5 minutes so bad? The
+seconds, or 5 minutes, for that matter? Is 5 minutes so bad? The
 answer is, no, it's not so bad if you only have to do it once... but
 it's almost *never* the case that you only even perform a computation
 on your data once.
@@ -178,7 +178,7 @@ than listening to Stairway to Heaven).
 My own approach is to use interpreted languages like Python, R,
 Octave/Matlab, etc, for prototyping --- that is, for exploring small
 amounts of data, for developing an approach, and algorithms, for
-analysing data, and for generating graphics. When I have a
+analyzing data, and for generating graphics. When I have a
 computation, or a simulation, or a series of operations that are
 time-consuming, I think about implementing them in C. Interpreted
 languages for *prototyping*, and C for *performance*.
@@ -200,7 +200,7 @@ languages for *prototyping*, and C for *performance*.
 - [[http://en.wikipedia.org/wiki/C_standard_library][C standard library]]
 - A book on doing statistics with C using the [[http://apophenia.sourceforge.net/][Apophenia]] library:
   [[http://modelingwithdata.org/about_the_book.html][Modeling With Data]] by Ben Klemens (see Chapter 1 for an argument in
-  favour of using C for statistical analyses, and Chapter 2 for a
+  favor of using C for statistical analyses, and Chapter 2 for a
   tutorial on programming in C)
 - A tip-a-day on C [[http://modelingwithdata.org/arch/00000049.htm][here]] by Ben Klemens
 - [[http://shop.oreilly.com/product/0636920025108.do][21st Century C]] by Ben Klemens, excellent demos of modern use of C in
