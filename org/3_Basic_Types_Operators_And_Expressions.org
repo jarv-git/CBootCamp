@@ -23,7 +23,7 @@ numbers, characters, and even pointers to other locations in memory.
 There are some restrictions on the names of variables in C. Names are
 made up of letters and digits, but the first character must be a
 letter (not a digit). The underscore "_" counts as a letter. Also
-remember in unix, uppercase and lowercase letters are distinct and so
+remember in Unix, uppercase and lowercase letters are distinct and so
 =Age= is distinct from =age=.
 
 Here is a list of *reserved keywords* in C that cannot be used as
@@ -182,7 +182,7 @@ upper-case alphabet starts at 65 (=A=) and ends at 90 (=Z=); the
 lowercase alphabet starts at 97 (=a=) and ends at 122 (=z=). Other
 symbols such as =(=, =!=, tab, carriage return, etc, are also
 represented in the ASCII table. See [[https://en.wikipedia.org/wiki/ASCII][ASCII (wikipedia)]] and [[http://www.asciitable.com/][AsciiTable]]
-for the mapping between characters and integer ascii codes.
+for the mapping between characters and integer ASCII codes.
 
 An important character constant to know about is the constant '=\0='
 which represents the character with value zero, sometimes called the
@@ -525,8 +525,8 @@ int main() {
 
 There are some built-in library functions in C to perform some basic
 conversions between strings and numeric types. Two useful functions to
-know about convert ascii strings to numeric types: =atoi()= (ascii to
-integer) and =atof()= (ascii to floating-point). We need to =#include=
+know about convert ASCII strings to numeric types: =atoi()= (ASCII to
+integer) and =atof()= (ASCII to floating-point). We need to =#include=
 the library =stdlib.h= in order to use these functions.
 
 To convert from numeric types to strings things are a bit more
