@@ -412,9 +412,9 @@ we will see later, the =(char *)= data type, which is actually a
 pointer to a character, is typically used in C to represent strings
 (as an array of characters).
 
-In the example above, we use the =atoi()= function to convert *ascii*
+In the example above, we use the =atoi()= function to convert *ASCII*
 to *integer*, in order to convert the command-line argument (the
-second one, hence =argv[1]=) which is an ascii string, into an integer
+second one, hence =argv[1]=) which is an ASCII string, into an integer
 =n=. We then declare an array =grades[n]= to be of length =n=.
 
 Here is some code that does nothing except output to the screen the
