@@ -79,7 +79,7 @@ moment. On the first line, we have to begin by declaring what data
 function that doesn't return anything by using =void=. The next item
 is the name of the function, which you get to choose. Next, in round
 brackets, is a list of input arguments that the function expects to
-see when it is called. Each argument is delared by listing first the
+see when it is called. Each argument is declared by listing first the
 *type* of the argument, followed by its name. Then in the body of the
 function is code, which does whatever you want the function to
 do. Finally we have to *return* a value (if the return type is
@@ -248,7 +248,7 @@ function (it also has to be outside of =main()=) is global, and can be
 seen by every function. In C, global variables are known as *external*
 variables (they are external to any function).
 
-For example in the following code, the varibale =myGlob= is declared
+For example in the following code, the variable =myGlob= is declared
 outside of =main()= and outside of =myFunc()= and thus can be accessed
 by code within both. The variable =myInt= is declared within the
 function =myFunc()= and is thus *local* to =myFunc()= and cannot be
