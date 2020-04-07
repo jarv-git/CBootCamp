@@ -35,7 +35,7 @@ name (e.g. =PI=) with the value that it's associated with in the
 =#define= statement (e.g. =3.14=). It's like a search-and-replace,
 basically.
 
-The =#define= statments can appear anywhere in the program, although a
+The =#define= statements can appear anywhere in the program, although a
 common convention is to put them at the top of source code files.
 
 * Macros
